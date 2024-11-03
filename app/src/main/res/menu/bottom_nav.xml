@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="HISTÓRICO"
+        android:id="@+id/historico"
+        android:icon="@drawable/baseline_view_list_24"/>
+    <item android:title="CAMÊRA"
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_camera_alt_24"/>
+    <item android:title="PERFIL"
+        android:id="@+id/perfil"
+        android:icon="@drawable/baseline_person_24"/>
+</menu>

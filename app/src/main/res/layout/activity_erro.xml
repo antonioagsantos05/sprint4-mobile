@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/back"
+    android:gravity="center"
+    android:padding="16dp"> <!-- Adiciona padding geral para margem lateral -->
+
+    <!-- Mensagem de erro centralizada e ajustada -->
+    <TextView
+        android:id="@+id/text_error_message"
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Não é possível prosseguir, pois a IA ainda está em desenvolvimento."
+    android:textSize="28sp"
+    android:textStyle="bold"
+    android:textColor="@color/red_1"
+    android:gravity="center"
+    android:layout_marginBottom="16dp"/>
+
+    <!-- Botão com drawable aplicado como fundo -->
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Voltar para Home"
+    android:textSize="18sp"
+    android:background="@drawable/btn_login"
+    android:textColor="@android:color/white"
+    android:padding="12dp"/>
+</LinearLayout>
